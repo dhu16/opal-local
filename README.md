@@ -18,6 +18,7 @@ Opal consists of the following complete features:
 # TECHNOLOGIES USED:
 - Ruby on Rails
 - Javascript
+- Figma
 - Webflow
 - JWT
 - AWS S3
