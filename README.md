@@ -12,12 +12,14 @@ Opal is a video streaming platform dedicated for amateur student filmmakers to p
 
 # PROJECT FEATURES:
 Opal consists of the following complete features: 
+- Model, View, Controller structure
 - a landing page
 - a user signup and login screens
 - a user profile page which lists films uploaded by the user
 - a home page where you can browse posts by other users and filter by school
 - a video player screen that allows you to watch a video 
 - a comment section for each video
+- BDD and TDD tests
 
 </br>
 
