@@ -31,7 +31,7 @@ Opal consists of the following complete features:
 - AWS S3
 - sqlite
 - Postgres
-- Httparty
+- HTTParty
 - Cucumber
 - Capybara
 - Rspec
