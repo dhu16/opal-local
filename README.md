@@ -1,4 +1,8 @@
-# OPAL
+<p align="center">
+  <img src="https://github.com/dhu16/opal-local/blob/main/app/assets/images/opal_transparent_logo-p-500.png"/>
+</p>
+
+# 
 
 Opal is a web application I developed along with 3 classmates for my SaaS class. 
 
