@@ -13,5 +13,20 @@ Opal consists of the following complete features:
 - a video player screen that allows you to watch a video 
 - a comment section for each video
 
+# TECHNOLOGIES USED:
+- Ruby on Rails
+- Javascript
+- Webflow
+- JWT
+- AWS S3
+- sqlite
+- Postgres
+- Httparty
+- Cucumber
+- Capybara
+- Rspec
+- Selenium WebDriver
+
+
 #### [Deployed version](https://rocky-inlet-94258-676c28639eb3.herokuapp.com/) (Took down deployment after class was completed)
 #### Test Cov: 92.24%
