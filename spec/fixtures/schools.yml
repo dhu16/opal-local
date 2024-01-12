@@ -1,0 +1,4 @@
+columbia:
+  name: Columbia University in the City of New York
+  created_at: <%= Time.current %>
+  updated_at: <%= Time.current %>

@@ -1,0 +1,13 @@
+# spec/fixtures/films.yml
+
+sample_film:
+  title:
+  description: 
+  user: user1
+
+sample_film2:
+  title:
+  description: 
+  user: user2
+
+  

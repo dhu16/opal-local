@@ -1,0 +1,19 @@
+# spec/fixtures/users.yml
+
+user1:
+  email: user1@columbia.edu
+  password_digest: <%= BCrypt::Password.create('password') %>
+  created_at: <%= Time.current %>
+  updated_at: <%= Time.current %>
+
+user2:
+  email: user2@columbia.edu
+  password_digest: <%= BCrypt::Password.create('password') %>
+  created_at: <%= Time.current %>
+  updated_at: <%= Time.current %>
+
+bad_user:
+  email: nil
+  password_digest: nil
+  created_at: <%= Time.current %>
+  updated_at: <%= Time.current %>

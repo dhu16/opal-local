@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Opal</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <!-- Standard stylesheets -->
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <!-- Webflow specific stylesheets -->
+    <%= stylesheet_link_tag 'normalize' %>
+    <%= stylesheet_link_tag 'webflow' %>
+    <%= stylesheet_link_tag 'miless-fantabulous-site-598a20.webflow' %>
+
+    <!-- Importmap tags for JavaScript -->
+    <%= javascript_importmap_tags %>
+
+    <style>
+      .flash {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 1050;
+      }
+
+      .flash.notice {
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      .flash.alert {
+        background-color: #F44336;
+        color: white;
+      }
+
+      /* Styling for film thumbnails */
+      .film-card {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .film-thumbnail {
+        width: 100px;
+        height: auto;
+        display: block;
+      }
+
+      /* Add this in your CSS to style large thumbnails */
+      .large-thumbnail {
+        width: 300px; /* Adjust the width to your desired size */
+        height: 215px; /* Adjust the height to your desired size */
+        padding: 0px; /* Add padding all around */
+        display: block;
+        margin: 0 auto; /* Center the image both horizontally and vertically */
+        border-radius: 18px; /* Apply border-radius for slightly rounded edges */
+        object-fit: cover; /* Maintain aspect ratio and cover the entire thumbnail area */
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <% flash.each do |type, message| %>
+      <div class="flash <%= type %>"><%= message %></div>
+    <% end %>
+    <% flash.clear %>
+
+    <%= yield %>
+  </body>
+</html>
